@@ -1,0 +1,41 @@
+body{
+  color: #777777;
+  background-color: #FFFFFF;
+  margin: 0;
+}
+
+ul li {
+  list-style-type: circle;
+}
+
+.container{
+  background-color: #111111;
+  width: 300px;
+}
+
+.song_list_container{
+  margin: 0px, 10px, 0px, 10px;
+}
+
+.song_list{
+  border: 1px, solid, #333333;
+  height: 200px;
+  overflow: scroll;
+}
+
+.album_art{
+  height: 128px;
+  width: 128px;
+  border-color: #FFFFFF;
+}
+
+.playing {
+  list-style-type: disc;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.top {
+  list-style-type: square;
+  font-size: larger;
+}

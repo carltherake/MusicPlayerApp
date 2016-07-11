@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>MusicPlayer</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  
+  <script src="js/jquery-3.0.0.js"></script>
+  <script src="js/main.js"></script> 
+</head>
+<body>
+  <div class="container">
+    <div>
+      <img class="album_art" id="album_art" />
+    </div>
+    <audio id="audio_player" controls>
+      <source id="mp3_src" type="audio/mp3" />
+    </audio>
+    <input type="file" id="folder_select" webkitdirectory directory multiple />
+    <input type="button" id="clear_files" value="Clear" />
+    <div class="song_list_container">
+      <h3>Track List:</h1>
+      <ul id="song_list" class="song_list">
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
